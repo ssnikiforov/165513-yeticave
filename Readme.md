@@ -1,7 +1,7 @@
 # Личный проект «YetiCave»
 
 * Студент: [Stepan Nikiforov](https://up.htmlacademy.ru/php/4/user/165513).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Кунин](https://htmlacademy.ru/profile/id497465).
 
 ---
 
