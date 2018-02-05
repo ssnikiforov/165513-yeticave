@@ -63,6 +63,12 @@ foreach ($productNames as $i => $productName) {
         FIELD_IMAGE_URL => $productImages[$i],
     ];
 }
+
+function formatPrice($price)
+{
+    return number_format(ceil($price), 0, '.', ' ') . ' '. '&#8381;';
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -151,7 +157,7 @@ foreach ($productNames as $i => $productName) {
                         <div class="lot__state">
                             <div class="lot__rate">
                                 <span class="lot__amount">Стартовая цена</span>
-                                <span class="lot__cost"><?= $product[FIELD_PRICE] ?><b class="rub">р</b></span>
+                                <span class="lot__cost"><?= formatPrice($product[FIELD_PRICE]) ?></span>
                             </div>
                             <div class="lot__timer timer">
 
